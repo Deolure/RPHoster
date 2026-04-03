@@ -1,3 +1,4 @@
+![demo](example.gif)
 ## EN:
 RPHoster is a client-side Minecraft mod that allows you to quickly upload your resource packs and share them via a direct link. It supports both folders and ZIP archives and automatically hosts your resource pack using an external file hosting service.
 
@@ -33,4 +34,3 @@ RPHoster — это клиентский мод для Minecraft, который
 - Поддерживаются:
   - папки  
   - `.zip` архивы  
-![demo](ezgif-21f3579602e3b7e0.gif)
