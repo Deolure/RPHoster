@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "rphoster",
+  "version": "${version}",
+  "name": "RPHoster",
+  "description": "A mod for hosting resource packs.",
+  "authors": ["DominosMersi"],
+  "contact": {
+    "Telegram": "@DominosMersi",
+    "Discord": "@dominosmersi"
+  },
+  "license": "MIT",
+  "icon": "assets/rphoster/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "dev.dominosmersi.rphoster.client.RPhosterDataGenerator"
+    ],
+    "client": [
+      "dev.dominosmersi.rphoster.client.RPhosterClient"
+    ],
+    "main": [
+      "dev.dominosmersi.rphoster.RPhoster"
+    ]
+  },
+  "mixins": [
+    "rphoster.mixins.json",
+    {
+      "config": "rphoster.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

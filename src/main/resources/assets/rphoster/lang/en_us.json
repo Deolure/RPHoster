@@ -1,0 +1,8 @@
+{
+  "rphoster.error.no_pack_mcmeta": "pack.mcmeta file is missing",
+  "rphoster.error.folder_missing": "folder or archive (.zip) \"%s\" not found",
+  "rphoster.error.invalid_file": "unsupported file format (.zip or folder)",
+  "rphoster.error": "An error occurred while uploading the resource pack to the hosting: %s. Please fix the issue or report it to the developer.",
+  "rphoster.success": "The resource pack has been successfully uploaded to the hosting and is available at the link: %s.",
+  "rphoster.click": "click"
+}

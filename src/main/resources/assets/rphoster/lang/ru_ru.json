@@ -1,0 +1,8 @@
+{
+  "rphoster.error.no_pack_mcmeta": "файл pack.mcmeta отсуствует",
+  "rphoster.error.folder_missing": "папка или архив (.zip) \"%s\" не найдены",
+  "rphoster.error.invalid_file": "неподдерживаемый формат файла (.zip или папка)",
+  "rphoster.error": "При попытке загрузки ресурс-пака на хостинг произошла ошибка: %s. Устраните ошибку или сообщите о ней разработчику.",
+  "rphoster.success": "Ресурс-пак успешно загружен на хостинг. Он доступен по ссылке: %s.",
+  "rphoster.click": "клик"
+}
